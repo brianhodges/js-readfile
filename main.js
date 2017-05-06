@@ -23,8 +23,8 @@ for (x = 0; x < lines.length; x++) {
     };
     teams.push(t);
 }
-console.log();
 
+console.log();
 teams.forEach(function(team) {
     var row_cnt = ("| Team: " + team['name'] + " |").length - 2;
     border = '-'.repeat(row_cnt);
